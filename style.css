@@ -1,0 +1,173 @@
+* {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-size-adjust: inherit;
+  }
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    font-size-adjust: inherit;
+    }
+
+  
+    
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 14px;
+    font-size-adjust: inherit;
+  }
+  .topright1 {
+    position: absolute;
+    top: 28px;
+    right: 16px;
+    font-size: 14px;
+    font-size-adjust: inherit;
+  }
+  .topright2 {
+    position: absolute;
+    top: 48px;
+    right: 16px;
+    font-size: 14px;
+    font-size-adjust: inherit;
+  }
+  .topright3 {
+    position: absolute;
+    top: 70px;
+    right: 16px;
+    font-size: 14px;
+    font-size-adjust: inherit;
+  }
+  .carver {
+    position: absolute;
+    font-size: 20px;
+    font-size-adjust: inherit;
+    align-items: center;
+    letter-spacing: 12px;
+    color: black;
+    text-shadow: 6px 6px silver;;
+  }
+  .motto {
+    position: center;
+    font-size: 20px;
+    letter-spacing: 12px;
+    font-size-adjust: inherit;
+    initial-letter-align: center;
+    color: black;
+    text-shadow: 4px 4px  silver;
+    }
+    .quote {
+      color: black;
+      position: center;
+      font-size: 18px;
+      text-shadow: none;
+      font-size-adjust: inherit;
+    }
+    
+#top {
+  height: 100%;
+  width: 100%;
+}
+ 
+  img {
+    width: 100%;
+    max-width: 100% ;
+    height: 50% ;
+  }
+ 
+  .center {
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #afafaf;
+  }
+
+  .stretch {
+    width: auto;
+    height: auto;
+  }
+  .services2 {
+    font-size: 20px;
+    text-shadow: none;
+    display: block;
+    margin-top: 3em;
+  }
+  .button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    }
+    .button :hover {
+      text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      transition: all 0.4s ease 0s;
+      }
+  li a {
+    font-size: inherit;
+    text-shadow: none;
+    display: inline;
+    color: black;
+  }
+  .list {
+    font-size: 25px;
+    background-color: white;
+    
+  }
+  i {
+    margin-right: 55px;
+    display: inline-block;
+    position: center;
+
+  }
+  .main {
+    color: black;
+    font-size-adjust: inherit;
+    min-width: 75%;
+    background-color: white;
+    font-size: 20px;
+    text-shadow: none;
+  }
+  a:hover {
+    background-color: pink;
+  }
+  .nav {
+    max-width: 100%;
+    min-width: 140px;
+    text-align: center;
+    margin: 35px 0 0 ;
+    background-color: darkgray;
+
+  }
+  nav ul{
+    font-variant: small-caps;
+    font-weight: lighter;
+    list-style: none;
+    margin: 0 1px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer {
+    background-color: #afafaf;
+  }
+  @media only screen and (max-width: 320px) {
+
+    body { 
+       font-size: 2em; 
+    }
+ 
+ }
+  
